@@ -6,7 +6,6 @@ body{
 .header{
   display: flex;
   background-color: #1f2937;
-  border: 2px solid black;
 }
 .links{
   display: flex;
@@ -70,6 +69,34 @@ a{
   align-items: baseline;
   line-break: strict;
   opacity: 60%;
+}
+.stepsOnHow{
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+}
+.stepsSection{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-left: 110px;
+}
+.stepsGeneral{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stepsGeneral img{
+  height: auto;
+  width: 80px;
+  flex-direction: row;
+}
+.stepsGeneral span{
+ opacity: 60%;
+ word-break: normal;
+ font-size: 18px;
+ text-align: center;
 }
 
 
