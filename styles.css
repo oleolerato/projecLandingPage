@@ -1,6 +1,6 @@
 body{
-  font-family: Sans-Serif;
   margin: 0;
+  font-family: arial;
   flex-direction: column;
 }
 .header{
@@ -36,7 +36,6 @@ a{
   flex: 1;
   padding: 0;
   justify-content: flex-end;
-  gap: 40px;
 }
 .placehldrVector img{
   height: auto;
@@ -45,30 +44,29 @@ a{
   flex-direction: row;
   justify-content: space-around;
   margin-right: 100px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   align-self: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .welcomeSection{
   margin-left: 45px;
   margin-right: 45px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .welcomeSection.Main{
   font-size: 48px;
   font-weight: bold;
   color: #f5f8fe;
+  margin-top: 90px;
 }
-.welcomeSection.Sub, li{
+.welcomeSection.Sub{
   color: #e5e7eb;
   font-size: 18px;
   font-style: italic;
   font-weight: normal;
-  align-items: baseline;
-  line-break: strict;
   opacity: 60%;
+  margin-bottom: 50px;
 }
 .stepsOnHow{
   font-size: 36px;
@@ -81,6 +79,8 @@ a{
   align-items: center;
   gap: 60px;
   margin-left: 110px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .stepsGeneral{
     display: flex;
@@ -97,6 +97,33 @@ a{
  word-break: normal;
  font-size: 18px;
  text-align: center;
+}
+.qouteSection{
+  background: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.qouteSection div, 
+.qouteSection span{
+  margin-top: 50px;
+  margin-right: 80px;
+  margin-left: 50px;
+}
+.qouteSection div{
+  font-size: 36px;
+  font-weight: normal;
+  font-style: italic;
+  opacity: 60%;
+  text-align: left;
+  justify-content: center;
+}
+.qouteSection span{
+  text-align: right;
+  font-size: 18px;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 
