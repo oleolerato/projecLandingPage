@@ -6,6 +6,7 @@ body{
 .header{
   display: flex;
   background-color: #1f2937;
+  line-height: 50px;
 }
 .links{
   display: flex;
@@ -45,8 +46,8 @@ a{
   justify-content: space-around;
   margin-right: 100px;
   align-self: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .welcomeSection{
   margin-left: 45px;
@@ -58,7 +59,7 @@ a{
   font-size: 48px;
   font-weight: bold;
   color: #f5f8fe;
-  margin-top: 90px;
+  margin-top: 140px;
 }
 .welcomeSection.Sub{
   color: #e5e7eb;
@@ -66,7 +67,7 @@ a{
   font-style: italic;
   font-weight: normal;
   opacity: 60%;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .stepsOnHow{
   font-size: 36px;
@@ -79,8 +80,8 @@ a{
   align-items: center;
   gap: 60px;
   margin-left: 110px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .stepsGeneral{
     display: flex;
@@ -125,5 +126,55 @@ a{
   margin-bottom: 20px;
   font-weight: bold;
 }
-
+.closing-section{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.outSection{
+  background: #3882f6;
+  border: 10px solid #3882f6;
+  border-radius: 10px;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+}
+.outSection button{
+  border: 2px solid white;
+  border-radius: 5px;
+  background: #3882f6;
+}
+.main{
+  font-size: 32px;
+  color: white;
+}
+.outSection button{
+  flex-direction: column-reverse;
+  color: white;
+}
+.sub{
+  color: white;
+  display: inline;
+  font-size: 18px;
+}
+footer{
+  display: flex;
+  flex: 1;
+  color: white;
+  align-items: center;
+  background: #1f2937;
+  line-height: 50px;
+}
+footer div{
+  display: inline;
+  flex: 1;
+  flex-direction: row;
+  align-self: center;
+}
 
