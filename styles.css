@@ -1,0 +1,75 @@
+body{
+  font-family: Sans-Serif;
+  margin: 0;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  background-color: #1f2937;
+  border: 2px solid black;
+}
+.links{
+  display: flex;
+  flex: 0 1 auto;
+  gap: 20px;
+  justify-content: flex-end;
+  flex-flow: row;
+  padding-left: 480px;
+  margin-right: 20px;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #e5e7eb;
+}
+.header-logo{
+  display: flex;
+  font-weight: bold;
+  font-size: 24px;
+  color: #f9faf8;
+  margin-left: 90px;
+}
+.intro-section{
+  background: #1f2937;
+  display: flex;
+  flex: 1;
+  padding: 0;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.placehldrVector img{
+  height: auto;
+  width: 200px;
+  flex: auto;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-self: center;
+}
+.welcomeSection{
+  margin-left: 45px;
+  margin-right: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcomeSection.Main{
+  font-size: 48px;
+  font-weight: bold;
+  color: #f5f8fe;
+}
+.welcomeSection.Sub, li{
+  color: #e5e7eb;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+  align-items: baseline;
+  line-break: strict;
+  opacity: 60%;
+}
+
+
